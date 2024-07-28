@@ -374,7 +374,7 @@ body {
 }
 
 .footer .top .footerot_menu li a:hover {
-    background-color: black;
+    background-color: #034098;
     color: white;
 }
 
@@ -384,7 +384,7 @@ body {
 
 .footer .bot {
     padding: 17px 0;
-    background-color: black;
+    background-color: #034098;
 }
 
 .footer .bot .left {
@@ -643,7 +643,7 @@ body {
 
     #search_form_phonea input[type="submit"] {
         border: none;
-        background-color: black;
+        background-color: #034098;
         color: white;
         font-size: 18px;
         padding: 9px 15px;
