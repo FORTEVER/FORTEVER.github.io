@@ -1,36 +1,466 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under Construction</title>
-    <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-        h1 {
-            font-size: 2em;
-            color: #2a2a2a;
-        }
-        p {
-            font-size: 1.5em;
-            color: #4a4a4a;
-        }
-    </style>
-</head>
-<body>
-    <div>
-        <h1>Website Under Construction</h1>
-        <p>We are working hard to launch our new site. Stay tuned!</p>
-    </div>
-</body>
-</html>
+<html lang="fa">
 
+<head>
+  <meta charset="utf-8">
+  <!-- استفاده از Google Chrome Frame -->
+  <meta name="renderer" content="webkit">
+  <!-- اولویت با آخرین نسخه IE و Chrome -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- سه تگ متا بالا *باید* در ابتدا قرار گیرند، هر محتوای دیگری *باید* پس از آنها بیاید! -->
+  <!-- Google Tag Manager -->
+  <script async="" src="js/gtm.js"></script>
+
+  <!-- End Google Tag Manager -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <meta name="keywords" content="">
+  <meta name="description" content="sdsdf">
+  <title>بازرگانی راد</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+  <link href="css/all.min.css" rel="stylesheet">
+  <link href="css/commoma.css" rel="stylesheet">
+  <link href="css/form.css" rel="stylesheet">
+  <link href="http://cdn.font-store.ir/ganjnameh.css" rel="stylesheet">
+  <link href="css/edit.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <style type="text/css">
+    body, html, h1, h2, h3, h4, h5, h6, p, a, li, button, input, select, textarea, option {
+      font-family: 'Ganjnameh', sans-serif !important;
+    }
+    .vi_box {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, .3);
+      z-index: 9999999;
+      display: none;
+    }
+
+    .vdobox {
+      width: 70%;
+      height: 600px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .myg {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      text-align: center;
+      right: -10px;
+      top: -9px;
+      background: #ff1783;
+      border-radius: 100%;
+      line-height: 20px;
+      padding: 5px;
+    }
+
+    @media screen and (max-width: 1023px) and (min-width: 768px) {
+      .vdobox {
+        height: 420px;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      .vdobox {
+        height: 270px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+  <div class="home_page">
+    <div class="home_banner">
+      <a class="Vid_play" href="javascript:;">
+        <img class="banner_bg" src="images/fa177680156771a59de9ed338f13abfa.png">
+      </a>
+      <div class="cont">
+        <div class="box">
+          <!-- <h2>شرکت ماشین آلات برقی هه و هه، زجیانگ</h2>
+          <b></b>
+          <p>یک شرکت جامع است که تحقیق و توسعه، تولید، فروش و کاربرد دستگاه های گلدوزی کامپیوتری را ادغام می‌کند.</p>
+          <a href="/single/about" class="more">بیشتر ببینید &gt;</a> -->
+        </div>
+      </div>
+    </div>
+    <div class="header">
+      <div class="container">
+        <ul class="clearfix menu">
+          <li>
+            <a href="/">
+              <img src="images/logo.png" width="186">
+            </a>
+          </li>
+
+          <li>
+            <a href="/news.html">محصولات</a>
+          </li>
+          <li>
+            <a href="/about">برند</a>
+          </li>
+          <li>
+            <a href="/news.html">اخبار</a>
+          </li>
+          <li>
+            <a href="/news.html"> لوازم جانبی</a>
+          </li>
+          <li>
+            <a href="/contact.html">پشتیبانی</a>
+          </li>
+          <li>
+            <a href="/contact.html">تماس</a>
+          </li>
+          <li>
+
+
+        </ul>
+      </div>
+
+    </div>
+    <div class="header_phone">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+              <span class="sr-only">تغییر ناوبری</span>
+              <span class="icon-bar"></span>
+              <span the="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="images/logo.png"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="/news.html">محصولات</a>
+                  </li>
+                  <li>
+                    <a href="/about">برند</a>
+                  </li>
+                  <li>
+                    <a href="/news.html">اخبار</a>
+                  </li>
+                  <li>
+                    <a href="/news.html"> لوازم جانبی</a>
+                  </li>
+                  <li>
+                    <a href="/contact.html">پشتیبانی</a>
+                  </li>
+                  <li>
+                    <a href="/contact.html">تماس</a>
+                  </li>
+                  <li>
+              <li>
+
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+
+
+    <div class="section">
+      <div class="container">
+        <h2 class="pro_h2">شرکت بازرگانی رادتنهانماینده رسمی برندFORTEVERدرایران</h2>
+        <b class="hline"></b>
+        <p class="pro_p">شرکت بازرگانی راد در زمینه واردات دستگاه های گلدوزی کامپیوتری تک کله،چندکله،دستگاه های میکس و همچنین دستگاه پولک زن،قیطان دوز و جواهر دوز فعالیت دارد</p>
+        
+        <p class="pro_p">سری ماشین‌های گلدوزی لوله‌ای با سرعت بالا، سری ماشین‌های بزرگ شامل ماشین گلدوزی صاف و ماشین
+          گلدوزی چند منظوره.
+          ما می‌توانیم تا 147 سر ماشین‌های گلدوزی کامپیوتری با سرعت بالا تولید کنیم.</p>
+        <a href="/product/list/id/4" title="" class="more promore">ورود به مرکز محصولات &gt;</a>
+      </div>
+      <div class="pro_swiper">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="/product/detail/id/27" title="" style="color: #fff;">
+                <img src="images/ed151db9f94c98fea0847f5473d8295b.jpg" alt="">
+                <div class="pro_delbox">
+                  <h2>Halo-100 (240*320mm)</h2>
+                  <p></p>
+                  <div>
+                    <div>.</div>
+                  </div>
+                  <p></p>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="/product/detail/id/221" title="" style="color: #fff;">
+                <img src="images/574170d2bf87e3bf6bd38656c5a6dd37.jpg" alt="">
+                <div class="pro_delbox">
+                  <h2>FT-1201 (400*600mm)PRO</h2>
+                  <p></p>
+                  <p>بهترین انتخاب برای گلدوزی کلاه<br></p>
+                  <p></p>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="/product/detail/id/7" title="" style="color: #fff;">
+                <img src="images/abcad4fb6512474a9435c0c84883c7bd.jpg" alt="">
+                <div class="pro_delbox">
+                  <h2>FT-1202HC/1502HC (400*500mm)</h2>
+                  <p></p>
+                  <p>مناسب برای گلدوزی صاف، کلاه، لباس‌های آماده</p>
+                  <p>طراحی ساختار ماشین منحصر به فرد</p>
+                  <p>پشتیبانی از گلدوزی روی محصولات آماده بزرگتر و سنگین‌تر</p>
+                  <p></p>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="/product/detail/id/46" title="" style="color: #fff;">
+                <img src="images/866b533e5fad57382753e454781379e6.jpg" alt="">
+                <div class="pro_delbox">
+                  <h2>FT-1208H/1508H (400*450mm)</h2>
+                  <p></p>
+                  <div dir="auto" style="font-family: 'Ganjnameh';" color:="" rgb(5,="" 5,="" 5);="" font-size:="" 15px;="" white-space:=""
+                    pre-wrap;"=""><span style="font-size: 14px;">ماشین گلدوزی چند سر با سرعت بالا از نوع بارودان</span>
+                  </div>
+                  <div dir="auto" style="font-family: 'Ganjnameh';" color:="" rgb(5,="" 5,="" 5);="" font-size:="" 15px;="" white-space:=""
+                    pre-wrap;"=""><span style="font-size: 14px;">انتقال شافت اسپلاین اصلی کره</span></div>
+                  <div dir="auto" style="font-family: 'Ganjnameh';" color:="" rgb(5,="" 5,="" 5);="" font-size:="" 15px;="" white-space:=""
+                    pre-wrap;"=""><span style="font-size: 14px;">ساختار تخت گردان</span></div>
+                  <p></p>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="/product/detail/id/9" title="" style="color: #fff;">
+                <img src="images/f6416b516523de966c4c2c33b269e474.jpg" alt="">
+                <div class="pro_delbox">
+                  <h2>FT-901/1201/1501+1PD (560*1200mm)</h2>
+                  <p></p>
+                  <p>1 سر صاف + 1 سر تیپینگ و کویلینگ<br>عملکردهای ویژه، چند منظوره<br><br></p>
+                  <p></p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="swiper-button-prev" style="background-image: url(images/left_2.png);"></div>
+          <div class="swiper-button-next" style="background-image: url(images/right_1.png);"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hehe_ltd" style="background-image:url(images/%E6%9C%AA%EF%BF%BD%C2%A0%EF%BF%BD%E9%A2%98-5_1.jpg);">
+      <h3><img src="images/hehe.png" alt=""></h3>
+      <div class="container">
+
+        <h2>شرکت ماشین آلات برقی هه و هه، زجیانگ</h2>
+        <b class="hline"></b>
+        <p>شرکت ماشین آلات برقی هه و هه، زجیانگ، یک شرکت جامع است که تحقیق، توسعه، تولید، فروش و کاربرد ماشین‌های گلدوزی
+          کامپیوتری برند فورتور را ادغام می‌کند.</p>
+        <p>Zhejiang Hehe Electric Machinery Co., Ltd. is a comprehensive enterprise integrating research, development,
+          production, sales and application of FORTEVER brand computerized embroidery machine . </p>
+        <p>Our factory covers an area of ​​40,000 square meters , has CNC parts processing center, quality control
+          center, technology research and development department, platen manufacturing center, seven water circulation
+          painting and spray booths. FORTEVER has a rich product line, High speed, stable product performance,
+          reasonable structure, low noise, low wire breakage rate and high quality of embroidery are the main features
+          of FORTEVER products.
+        </p>
+        <p>We have excellent market performance in the special models and special materials’ application of embroidery
+          machines.</p>
+        <div class="ltdbox">
+          <div class="ltdbox_a">
+            <h4>40,000m2</h4>
+            <p>Our factory covers an area</p>
+          </div>
+          <div class="ltdbox_a">
+            <h4>147heads</h4>
+            <p>can produce up to 147heads high-speed computerized embroidery machines</p>
+          </div>
+          <div class="ltdbox_a">
+            <h4>One-stop service</h4>
+            <p>development, production, sales and application</p>
+          </div>
+        </div>
+        <a href="/single/about" class="more lookmore">LOOK MORE &gt;</a>
+      </div>
+    </div>
+    <div class="Exhibition">
+      <img src="images/de1eaf31ad5ddf9c27c7d31b42d6d542.png" alt="">
+      <!-- <div class="exhbox">
+    <p>2021 Exhibition News</p>
+    <h2>CISMA</h2>
+    <h3>CHINA INT\'S SEWING MACHINERY &ACCSORIES SHOW 2021</h3>
+    <h4>Exhibition Booth: Undetermined</h4>
+    <h5>Exhibition Time: Undetermined</h5>
+  </div> -->
+    </div>
+    <div class="vi_box">
+      <div class="vdobox">
+        <p class="myg"><img src="images/m_index_03.png" alt=""></p>
+        <div id="playerq0"></div>
+      </div>
+    </div>
+
+
+    <div class="footer">
+      <a class="scrollTop show"><img src="images/top.jpg" alt=""></a>
+      <div class="top">
+        <div the="container">
+          <div class="footerot_menu">
+            <ul class="clearfix">
+              <li><a href="/single/privacy">سیاست حفظ حریم خصوصی</a></li>
+              <li><a href="/single/feedback">بازخورد</a></li>
+              <li><a href="/single/support">پشتیبانی</a></li>
+              <li><a href="tel:09177643438">09177643438</a></li>
+              <li><a href="https://instagram.com/Fortever.ir" target="_blank"><img src="images/instagram.png" width="25px" height="25px"></a></li>
+              <li><a href="https://wa.me/09177643438" target="_blank"><img src="images/whatsapp.png" width="25px" height="25px"></a></li>
+              <li><a href="https://t.me/Fortever_ir" target="_blank"><img src="images/telegram.png" width="25px" height="25px"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bot">
+        <div class="container clearfix">
+          <div class="left">
+            <a href=""><img src="images/ditu.png" alt=""></a>
+  
+            <div class="right">
+              <p>© 2021 شرکت بازرگانی راد</p>
+              <br>
+              <p>همه حقوق محفوظ است.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form_feedback" style="display: none;">
+        <span>نام کامل نمی‌تواند خالی باشد.</span>
+      </div>
+  
+  
+      <div id="Mask"></div>
+      <div id="Prompt_msg"></div>
+      <style type="text/css">
+        #form_data_box .box p input {
+          font-size: 0;
+          display: inline-block;
+          width: 15px;
+          height: 15px;
+          margin: 0;
+          padding: 0;
+        }
+      </style>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="/assets/js/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+    <script src="js/swiper-3.4.2.min.js"></script>
+    <script src="js/formData.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/maina.js"></script>
+    <script type="text/javascript">
+      var urlstr = location.href;
+      console.log(urlstr + '/');
+      var urlstatus = false;
+      $(".menu a").each(function () {
+        if ((urlstr + '/').indexOf($(this).attr('href')) > -1 && $(this).attr('href') != '') {
+          $(this).addClass('activea'); urlstatus = true;
+        } else {
+          $(this).removeClass('activea');
+        }
+      });
+      if (!urlstatus) { $(".menu a").eq(1).addClass('activea'); }
+    </script>
+
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 3,
+        spaceBetween: 10,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev'
+      });
+      var w = $(window).width();
+      console.log(w)
+      if (w >= 768 && 1024 >= w) {
+        var swiper = new Swiper('.swiper-container', {
+          slidesPerView: 2,
+          spaceBetween: 10,
+          nextButton: '.swiper-button-next',
+          prevButton: '.swiper-button-prev',
+
+        });
+      }
+      if (w < 767) {
+        var swiper = new Swiper('.swiper-container', {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          paginationClickable: true,
+          nextButton: '.swiper-button-next',
+          prevButton: '.swiper-button-prev',
+        });
+      }
+      // 2. This code loads the IFrame Player API code asynchronously.
+      $('.Vid_play').click(function (e) {
+        $('.vi_box').css('display', 'block');
+
+      })
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      var playerq0;
+      var a = "yQx9kQu6Mdg";
+      function onYouTubeIframeAPIReady() {
+        playerq0 = new YT.Player('playerq0', {
+          height: '100%',
+          width: '100%',
+          videoId: a,
+          playerVars: {
+            'rel': 0,
+            'showinfo': 0,
+          },
+          events: {
+            // 'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+      var done = false;
+      function onPlayerStateChange(event) {
+
+      }
+      function stopVideo() {
+        playerq0.stopVideo();
+      }
+
+      $('.myg').click(function (e) {
+        $('.vi_box').css('display', 'none');
+        stopVideo();
+      })    
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,331 @@
+.banner {
+  position: relative;
+  width: 100%; }
+  .banner img {
+    width: 100%; }
+
+.nav_ban {
+  position: absolute;
+  left: 19.4%;
+  top: 0;
+  z-index: 123;
+  padding-top: 11px; }
+  .nav_ban a {
+    font-size: 13px;
+    line-height: 18px;
+    color: #fff;
+    font-style: italic;
+    font-family: "Oswald"; }
+
+.boxsdw {
+  position: relative;
+  z-index: 123;
+  width: 100%;
+  height: 1px;
+  box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.35); }
+
+.set {
+  background-color: #fbfbfb;
+  width: 100%; }
+
+.cnt_tit {
+  font-size: 54px;
+  font-family: "Oswald", sans-serif;
+  color: #212121;
+  text-align: center;
+  margin-top: 100px; }
+
+.contactbox {
+  margin-top: 60px; }
+
+.contlf {
+  float: left;
+  width: 33%;
+  text-align: center;
+  padding: 0 30px;
+  margin-bottom: 65px;
+  border-left: 1px solid #e0e0e0; }
+  .contlf h3 {
+    font-size: 24px;
+    font-family: "Oswald", sans-serif;
+    color: #666666;
+    font-weight: bold; }
+  .contlf p {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #666666;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  .contlf .addicon {
+    height: 52px;
+    margin-bottom: 5px; }
+
+.contlfa {
+  border-left: none; }
+
+.meailus {
+  width: 730px;
+  margin: auto;
+  text-align: center; }
+  .meailus p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px; }
+  .meailus h3 {
+    font-size: 24px;
+    font-family: "Oswald", sans-serif;
+    color: #424242;
+    font-style: italic;
+    margin-top: 20px; }
+  .meailus a {
+    border: 1px dashed #090706;
+    width: 298px;
+    height: 58px;
+    display: block;
+    line-height: 58px;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    color: #212121;
+    font-weight: bold;
+    margin: 30px auto 105px; }
+
+.set3 {
+  background-color: #080605;
+  text-align: center; }
+  .set3 .meailus {
+    color: #fff; }
+    .set3 .meailus p {
+      margin-top: 10px; }
+  .set3 .cnt_tit {
+    color: #fff; }
+  .set3 a {
+    font-size: 12px;
+    font-family: "Roboto";
+    color: #bdbdbd;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 16px;
+    display: inline-block;
+    margin: 20px auto 0;
+    text-align: center;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2); }
+
+.forms {
+  width: 100%;
+  margin: 40px auto 110px; }
+
+.forms form {
+  overflow: hidden; }
+
+.forms form label {
+  display: inline-block;
+  margin-bottom: 30px;
+  width: 48.5%;
+  background: transparent; }
+
+.forms form label input, .forms form label textarea {
+  display: block;
+  border: none;
+  padding-left: 30px;
+  width: 100%;
+  outline: none;
+  background: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  color: #fff; }
+
+.forms form label input {
+  padding: 13px 0;
+  padding-left: 30px;
+  border: 1px solid #fff;
+  width: 100%; }
+
+.forms form label input:focus-within {
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #fff !important; }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif; }
+
+.forms form label:nth-child(n) {
+  padding-left: 0;
+  float: left; }
+
+.forms form label:nth-child(2n) {
+  padding: 0;
+  float: right; }
+
+.forms form label.mes {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border: 1px solid #fff;
+  margin-bottom: 30px; }
+
+.forms form textarea {
+  padding-top: 15px;
+  margin-bottom: 20px;
+  width: 100%; }
+
+.forms form div.subn {
+  clear: both;
+  background-color: #fff;
+  position: relative; }
+
+.forms form div.subn i {
+  color: #000;
+  font-size: 18px;
+  position: absolute;
+  top: 17px;
+  right: 45%; }
+
+.forms form .sub {
+  border: none;
+  display: block;
+  background-color: #fff;
+  text-align: center;
+  font-size: 18px;
+  height: 50px;
+  line-height: 52px;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  border: none !important;
+  color: #000;
+  width: 100%;
+  font-family: "Roboto"; }
+
+.forms form .other {
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-top: 20px; }
+
+.forms form .other a {
+  display: inline-block;
+  border-bottom: 1px solid #999;
+  color: #999;
+  text-decoration: none; }
+
+.enquiry_make {
+  position: fixed;
+  z-index: 99;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none; }
+
+.enquiry_make p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #000;
+  color: #fff;
+  padding: 20px 30px; }
+
+#ewm {
+  width: 100%;
+  position: relative; }
+
+.ewming {
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  width: 100px;
+  height: 30px;
+  transform: translateY(-50%); }
+
+@media screen and (max-width: 1200px) and (min-width: 1024px) {
+  .container {
+    max-width: 970px; }
+
+  .cnt_tit {
+    font-size: 48px;
+    margin-top: 60px; }
+
+  .contactbox {
+    margin-top: 45px; }
+
+  .contlf {
+    padding: 0 0px; } }
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .container {
+    max-width: 760px; }
+
+  .cnt_tit {
+    font-size: 40px;
+    margin-top: 50px; }
+
+  .contactbox {
+    margin-top: 30px; }
+
+  .contlf {
+    padding: 0 0px; }
+
+  .meailus a {
+    margin: 30px auto 75px; }
+
+  .forms {
+    margin: 30px auto 60px; }
+
+  .forms form div.subn i {
+    top: 16px;
+    right: 43%; } }
+@media screen and (max-width: 767px) {
+  .banner img {
+    height: 150px;
+    object-fit: cover; }
+
+  .nav_ban {
+    left: 0; }
+
+  .cnt_tit {
+    font-size: 30px;
+    margin-top: 40px; }
+
+  .contactbox {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+
+  .contlf {
+    width: 100%;
+    margin-bottom: 20px;
+    border-left: none;
+    padding: 0; }
+
+  .meailus {
+    width: 100%; }
+    .meailus a {
+      margin: 30px auto 60px; }
+
+  .forms form label {
+    margin-bottom: 20px;
+    width: 100%; }
+
+  .forms form .sub {
+    padding-right: 10%; }
+
+  .forms form div.subn i {
+    top: 16px;
+    right: 40%; }
+
+  .forms {
+    margin: 30px auto 50px; }
+
+  .forms form label input {
+    padding-left: 15px; }
+
+  .ewming {
+    right: 1%;
+    width: 75px;
+    height: 23px; } }
+
+/*# sourceMappingURL=contact.css.map */

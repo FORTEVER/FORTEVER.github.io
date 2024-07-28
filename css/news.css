@@ -1,0 +1,303 @@
+.nav_ban {
+  padding-top: 16px;
+  width: 100%;
+  background: #090706;
+  padding-bottom: 13px;
+  line-height: 20px; }
+  .nav_ban a {
+    font-size: 13px;
+    line-height: 18px;
+    color: #fff;
+    font-style: italic;
+    font-family: "Oswald"; }
+
+.brtbox {
+  position: relative;
+  top: -88px;
+  z-index: 7895674545;
+  height: 60px; }
+  .brtbox .swiper-button-next, .brtbox .swiper-button-prev {
+    position: absolute;
+    border: 2px solid white;
+    width: 56px;
+    height: 56px;
+    top: 0;
+    right: -16px;
+    background-image: none;
+    margin-top: 0;
+    text-align: center;
+    line-height: 50px;
+    left: auto; }
+  .brtbox .swiper-button-next {
+    right: -80px;
+    z-index: 78999; }
+  .brtbox .rtb, .brtbox .lfb {
+    display: none; }
+  .brtbox .swiper-button-next:hover, .brtbox .swiper-button-prev:hover {
+    background-color: #fff;
+    transition: all 0.4s; }
+  .brtbox .swiper-button-next:hover .rta, .brtbox .swiper-button-prev:hover .lfa {
+    display: none; }
+  .brtbox .swiper-button-next:hover .rtb, .brtbox .swiper-button-prev:hover .lfb {
+    display: block;
+    margin: auto;
+    margin-top: 17px; }
+
+.exhbox .swiper-slide {
+  width: 1020px; }
+.exhbox .swiper-slide a {
+  transition: 0.2s; }
+.exhbox .swiper-slide a:hover {
+  opacity: .6; }
+
+.set {
+  width: 100%;
+  background-color: #090706;
+  padding-top: 35px;
+  padding-bottom: 70px;
+  color: #fff; }
+
+.exhimg {
+  display: inline-block;
+  width: 34%; }
+
+.exhcnt {
+  display: inline-block;
+  width: 60%;
+  margin-left: 4%;
+  vertical-align: top;
+  padding-top: 20px; }
+  .exhcnt h2 {
+    font-size: 36px;
+    font-family: "oswald";
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: #fff; }
+  .exhcnt p {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Roboto"; }
+
+.exhtime, .exhuser {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  font-family: "Roboto"; }
+  .exhtime i, .exhuser i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 12px;
+    height: 16px;
+    line-height: 12px; }
+
+.exhuser {
+  margin-left: 20px; }
+
+.exhtime i {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: -6px; }
+
+.setbox {
+  margin-top: 60px;
+  margin-bottom: 50px; }
+
+.line {
+  width: 100%;
+  height: 1px;
+  display: block;
+  background-color: #fff; }
+
+.ech_box {
+  position: absolute;
+  left: 6%;
+  bottom: 15%;
+  z-index: 123;
+  width: 39%; }
+  .ech_box p {
+    font-size: 16px;
+    font-family: "Roboto";
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.125; }
+  .ech_box h2 {
+    font-size: 36px;
+    font-family: "Oswald";
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 45px;
+    margin-top: 15px; }
+
+.page {
+  text-align: center;
+  margin-top: 50px; }
+
+.pagination {
+  margin: 0; }
+
+.pagination > li > a, .pagination > li > span {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  margin-left: -1px;
+  margin: 0 5px;
+  font-size: 18px;
+  line-height: 26px;
+  width: 36px;
+  height: 36px;
+  display: inline-block; }
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  background-color: #fff;
+  border-color: #000f1a;
+  color: #000; }
+
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+  margin-left: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  font-size: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0; }
+
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  font-size: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0; }
+
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+  .exhbox .swiper-slide {
+    width: 900px; }
+
+  .banner .container {
+    width: 1020px; } }
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+  .exhbox {
+    width: 100%; }
+    .exhbox .swiper-slide {
+      width: 70%; }
+
+  .banner .container {
+    width: 830px; }
+
+  .container {
+    width: 970px; }
+
+  .exhcnt {
+    padding-top: 0px; }
+    .exhcnt p {
+      font-size: 15px; }
+    .exhcnt h2 {
+      font-size: 30px;
+      margin-top: 10px;
+      margin-bottom: 15px; } }
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .exhbox {
+    width: 750px; }
+    .exhbox .swiper-slide {
+      width: 70%; }
+
+  .banner .container {
+    width: 600px; }
+
+  .brtbox .swiper-button-next, .brtbox .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    right: -15px;
+    line-height: 36px; }
+
+  .brtbox .swiper-button-next {
+    right: -60px; }
+
+  .brtbox {
+    top: -50px; }
+
+  .exhcnt {
+    width: 62%;
+    margin-left: 3%;
+    padding-top: 0px; }
+    .exhcnt p {
+      font-size: 14px;
+      line-height: 24px; }
+    .exhcnt h2 {
+      font-size: 22px;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+
+  .setbox {
+    margin-top: 20px;
+    margin-bottom: 25px; } }
+@media screen and (max-width: 767px) {
+  .exhbox {
+    width: 100%; }
+    .exhbox .swiper-slide {
+      width: 70%; }
+
+  .banner .brtbox.container {
+    width: 75%; }
+
+  .brtbox {
+    top: -36px;
+    height: 30px; }
+
+  .brtbox .swiper-button-next, .brtbox .swiper-button-prev {
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    line-height: 25px; }
+    .brtbox .swiper-button-next img, .brtbox .swiper-button-prev img {
+      width: 32%; }
+
+  .brtbox .swiper-button-next:hover .rtb, .brtbox .swiper-button-prev:hover .lfb {
+    display: block;
+    margin: auto;
+    margin-top: 7px;
+    width: 32%; }
+
+  .brtbox .swiper-button-next {
+    right: -32px; }
+
+  .setbox {
+    margin-top: 30px;
+    margin-bottom: 20px; }
+
+  .exhimg, .exhcnt {
+    width: 100%;
+    margin-left: 0; }
+
+  .exhcnt h2 {
+    font-size: 22px;
+    margin-bottom: 10px; }
+
+  .exhcnt p {
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Roboto"; }
+
+  .ech_box {
+    position: absolute;
+    left: 6%;
+    bottom: 15%;
+    z-index: 123;
+    width: 90%; }
+    .ech_box p {
+      font-size: 16px; }
+    .ech_box h2 {
+      font-size: 22px;
+      line-height: 24px;
+      margin-top: 10px; }
+
+  .set {
+    padding-top: 12px; }
+
+  .exhtime i {
+    margin-top: -4px; } }
+
+/*# sourceMappingURL=news.css.map */
