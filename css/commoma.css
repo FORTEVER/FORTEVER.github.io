@@ -686,3 +686,14 @@ body {
         padding-left: 10px;
     }
 }
+.sub {
+    width:100% !important;
+    text-align: right;
+    padding-right: 20px !important;
+    
+  }
+.sub  a{
+    text-align: right !important;
+    padding-right: 10px;
+}
+  

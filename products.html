@@ -1,372 +1,416 @@
-<!DOCTYPE html><html lang="en"><head>
-    <meta charset="utf-8">
-    <!-- 360 使用Google Chrome Frame -->
-    <meta name="renderer" content="webkit">
-    <!-- 优先使用 IE 最新版本和 Chrome -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
- 
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- End Google Tag Manager -->
-    <link rel="shortcut icon" href="favicon.ico"> 
-    
-    <meta name="keywords" content="">
-    <meta name="description" content="sdsdf">   
-    <title>لیست محصولات</title>
-
-        <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
-    <link href="css/all.min.css" rel="stylesheet">
-    <link href="css/commoma.css" rel="stylesheet">
-    <link href="css/form.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Roboto:300,400,500,700,900" rel="stylesheet">
-    <link href="css/edit.css" rel="stylesheet">
-    <!-- <script src="/assets/js/require.min.js" data-main="/assets/js/require-frontend.min.js?v=1.0.1"></script> -->
-    
-     
-    <link rel="stylesheet" href="css/prolist.css">   
-    <link href="https://cdn.font-store.ir/ganjnameh.css" rel="stylesheet">
-    <style type="text/css">
-      body, html, h1, h2, h3, h4, h5, h6, p, a, li, button, input, select, textarea, option {
-        font-family: 'Ganjnameh', sans-serif !important;
-      }
-      </style>
-
-  </head>
-  <body>
-
-        
-    <div class="header">
-      <div class="container">
-        <ul class="clearfix menu">
-          <li>
-            <a href="/">
-              <img src="images/logo.png" width="186">
-            </a>
-          </li>
-  
-          <li>
-            <a href="/products.html">محصولات</a>
-          </li>
-          <li>
-            <a href="/services.html">خدمات</a>
-          </li>
-          <li>
-            <a href="/about.html">معرفی شرکت</a>
-          </li>
-          <li>
-            <a href="/contact.html">راه‌های برقراری ارتباط</a>
-          </li>
-          <li>
-        </ul>
-      </div>
-  
-    </div>
-    <div class="header_phone">
-      <nav class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
-              <span class="sr-only">تغییر ناوبری</span>
-              <span class="icon-bar"></span>
-              <span the="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/"><img src="images/logo.png"></a>
-          </div>
-          <div class="collapse navbar-collapse" id="example-navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li>
-                <a href="/products.html">محصولات</a>
-              </li>
-              <li>
-                <a href="/services.html">خدمات</a>
-              </li>
-              <li>
-                <a href="/about.html">معرفی شرکت</a>
-              </li>
-              <li>
-                <a href="/contact.html">راه‌های برقراری ارتباط</a>
-              </li>
-              <li>
-              <li>
-  
-              </li>
-  
-            </ul>
-          </div>
-        </div>
-      </nav>
-  
-    </div>
+<head>
+  <meta charset="utf-8">
+  <!-- 360 使用Google Chrome Frame -->
+  <meta name="renderer" content="webkit">
+  <!-- 优先使用 IE 最新版本和 Chrome -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<div class="boxsdw"></div>
-<div class="banner">
-  <img src="images/f1132e29f38454d5fd8eeda4bd4f23a7.png" alt="">
-  <div class="nav_ban">
+  <!-- End Google Tag Manager -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <meta name="keywords" content="">
+  <meta name="description" content="بازرگانی راد">
+  <title>لیست محصولات</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
+  <link href="css/all.min.css" rel="stylesheet">
+  <link href="css/commoma.css" rel="stylesheet">
+  <link href="css/form.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Roboto:300,400,500,700,900"
+    rel="stylesheet">
+  <link href="css/edit.css" rel="stylesheet">
+  <!-- <script src="/assets/js/require.min.js" data-main="/assets/js/require-frontend.min.js?v=1.0.1"></script> -->
+
+
+  <link rel="stylesheet" href="css/prolist.css">
+  <link href="https://cdn.font-store.ir/ganjnameh.css" rel="stylesheet">
+  <style type="text/css">
+    body,
+    html,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a,
+    li,
+    button,
+    input,
+    select,
+    textarea,
+    option {
+      font-family: 'Ganjnameh', sans-serif !important;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+  <div class="header">
     <div class="container">
-      <a>خانه /</a><a href="" title=""> دستگاه تک سر سریع</a>
+      <ul class="clearfix menu">
+        <li>
+          <a href="/">
+            <img src="images/logo.png" width="186">
+          </a>
+        </li>
+
+        <li class="dropdown">
+          <a href="/products.html" class="dropdown-toggle" data-toggle="dropdown">محصولات <span
+              class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="sub"><a href="/products.html">دستگاه گلدوزی کامپیوتری'</a></li>
+            <li class="sub"><a href="/otherproducts.html">دیوایس جانبی</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="/services.html">خدمات</a>
+        </li>
+        <li>
+          <a href="/about.html">معرفی شرکت</a>
+        </li>
+        <li>
+          <a href="/contact.html">راه‌های برقراری ارتباط</a>
+        </li>
+        <li>
+      </ul>
     </div>
-  </div> 
-</div>
-<div class="set">
-  <div class="container">
-        <a href="/product/list/id/5" title="" class="active">دستگاه تک سر سریع</a><b>|</b>
-        <!-- <a href="/product/list/id/6" title="">دستگاه نوع C سریع</a><b>|</b>
-        <a href="/product/list/id/7" title="">دستگاه چند سر لوله‌ای سریع</a><b>|</b>
+
+  </div>
+  <div class="header_phone">
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+            <span class="sr-only">تغییر ناوبری</span>
+            <span class="icon-bar"></span>
+            <span the="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><img src="images/logo.png"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="/products.html" class="dropdown-toggle" data-toggle="dropdown">محصولات <span
+                  class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/product/list/id/5">دستگاه گلدوزی کامپیوتری'</a></li>
+                <li><a href="/product/accessories">دیوایس جانبی</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="/services.html">خدمات</a>
+            </li>
+            <li>
+              <a href="/about.html">معرفی شرکت</a>
+            </li>
+            <li>
+              <a href="/contact.html">راه‌های برقراری ارتباط</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </div>
+  </nav>
+
+  </div>
+
+
+  <div class="boxsdw"></div>
+  <div class="banner">
+    <img src="images/f1132e29f38454d5fd8eeda4bd4f23a7.png" alt="">
+    <div class="nav_ban">
+      <div class="container">
+        <a>خانه /</a><a href="" title=""> دستگاه تک کله سریع</a>
+      </div>
+    </div>
+  </div>
+  <div class="set">
+    <div class="container">
+      <a href="/product/list/id/5" title="" class="active">دستگاه تک کله سریع</a><b>|</b>
+      <a href="/product/list/id/6" title="">دستگاه نوع C سریع</a><b>
+        <!-- <a href="/product/list/id/7" title="">دستگاه چند سر لوله‌ای سریع</a><b>|</b>
         <a href="/product/list/id/8" title="">عملکرد خاص</a><b>|</b>
         <a href="/product/list/id/9" title="">دستگاه چند سر صاف</a><b>|</b>
-        <a href="/product/accessories" title="">لوازم جانبی</a> -->
-  </div>
-</div>
-<div class="set1">
-  <div class="container">
-        <h2 class="Sup_tit">سری دستگاه‌های گلدوزی تک سر سریع</h2>
-    <p class="List_cnt">سری کلاسیک تک سر، مناطق گلدوزی مختلف مناسب برای نیازهای مختلف گلدوزی. پشتیبانی از کلاه، لباس‌های آماده، گلدوزی صاف، دستگاه‌های اختیاری شامل: سکه‌ها، ریسمان، سنگ‌های قیمتی، مهره‌ها، برش لیزری، دستگاه قاب ربات و غیره.</p>
-        <div class="Probox">
-            <div class="Pro_box">
-        <a href="/product/detail/id/27" title="">
-        <p>Halo-100  (240*320mm)</p>
-        <div class="Pro_img">
-          <img src="images/5b128bf5ab3d5c7a1afa447ec0d99aa5.jpg" alt="">
-          <nav class="clearfix">
-            <li>
-                240mm×320mm                <span>منطقه گلدوزی</span>
-            </li>
-            <li>
-                12                <span>تعداد سوزن</span>
-            </li>
-            <li>
-                1                <span>تعداد سر</span>
-            </li>
-          </nav>
-        </div>
-        </a>
-      </div>
-            <div class="Pro_box">
-        <a href="/product/detail/id/5" title="">
-        <p>FT-1201S/1501S  (300*350mm) </p>
-        <div class="Pro_img">
-          <img src="images/bc8b642c6249c46f0d52205af1d7a9c2.jpg" alt="">
-          <nav class="clearfix">
-            <li>
-                300mm×350mm                <span>منطقه گلدوزی</span>
-            </li>
-            <li>
-                12/15                <span>تعداد سوزن</span>
-            </li>
-            <li>
-                1                <span>تعداد سر</span>
-            </li>
-          </nav>
-        </div>
-        </a>
-      </div>
-            <div class="Pro_box">
-        <a href="/product/detail/id/6" title="">
-        <p>FT-1201/1501   (350*500mm)</p>
-        <div class="Pro_img">
-          <img src="images/380c4c491fef83ea4431e7dcd969976d.jpg" alt="">
-          <nav class="clearfix">
-            <li>
-                350mm×500mm                <span>منطقه گلدوزی</span>
-            </li>
-            <li>
-                12/15                <span>تعداد سوزن</span>
-            </li>
-            <li>
-                1                <span>تعداد سر</span>
-            </li>
-          </nav>
-        </div>
-        </a>
-      </div>
-            <div class="Pro_box">
-        <a href="/product/detail/id/43" title="">
-        <p>FT-1201/1501  (400*600mm)</p>
-        <div class="Pro_img">
-          <img src="images/d77e5839071a9ae8c7528275b789dc12.jpg" alt="">
-          <nav class="clearfix">
-            <li>
-                400mm×600mm                <span>منطقه گلدوزی</span>
-            </li>
-            <li>
-                12/15                <span>تعداد سوزن</span>
-            </li>
-            <li>
-                1                <span>تعداد سر</span>
-            </li>
-          </nav>
-        </div>
-        </a>
-      </div>
-            <div class="Pro_box">
-        <a href="/product/detail/id/221" title="">
-        <p>FT-1201 (400*600mm)PRO</p>
-        <div class="Pro_img">
-          <img src="images/dbdd4bfc21313d36a69a1948c90b5417.jpg" alt="">
-          <nav class="clearfix">
-            <li>
-                400mm×600mm                <span>منطقه گلدوزی</span>
-            </li>
-            <li>
-                12/15                <span>تعداد سوزن</span>
-            </li>
-            <li>
-                1                <span>تعداد سر</span>
-            </li>
-          </nav>
-        </div>
-        </a>
-      </div>
-            <div class="Pro_box">
-        <a href="/product/detail/id/42" title="">
-        <p>FT-1201/1501  (500*800mm)</p>
-        <div class="Pro_img">
-          <img src="images/8688cc3f1a033ff3a37a86932003d8a9.jpg" alt="">
-          <nav class="clearfix">
-            <li>
-                500mm×800mm                <span>منطقه گلدوزی</span>
-            </li>
-            <li>
-                12/15                <span>تعداد سوزن</span>
-            </li>
-            <li>
-                1                <span>تعداد سر</span>
-            </li>
-          </nav>
-        </div>
-        </a>
-      </div>
-            <div class="Pro_box">
-        <a href="/product/detail/id/41" title="">
-        <p>FT-1201/1501  (500*1200mm)</p>
-        <div class="Pro_img">
-          <img src="images/d4f4cebfd1714416ff15def66a65d920.jpg" alt="">
-          <nav class="clearfix">
-            <li>
-                500mm×1200mm                <span>منطقه گلدوزی</span>
-            </li>
-            <li>
-                12/15                <span>تعداد سوزن</span>
-            </li>
-            <li>
-                1                <span>تعداد سر</span>
-            </li>
-          </nav>
-        </div>
-        </a>
-      </div>
-            <div class="Pro_box">
-        <a href="/product/detail/id/223" title="">
-        <p>FT-1201 (600*1200mm)</p>
-        <div class="Pro_img">
-          <img src="images/1ec3c97e83a53ce72c68656e3385d812.png" alt="">
-          <nav class="clearfix">
-            <li>
-                600mm×1200mm                <span>منطقه گلدوزی</span>
-            </li>
-            <li>
-                12/15                <span>تعداد سوزن</span>
-            </li>
-            <li>
-                1                <span>تعداد سر</span>
-            </li>
-          </nav>
-        </div>
-        </a>
-      </div>
-            <div class="Pro_box">
-        <a href="/product/detail/id/40" title="">
-        <p>FT-1201/1501 (700*1200mm)</p>
-        <div class="Pro_img">
-          <img src="images/63398556aa3fd299771bc48c0e4b3413.jpg" alt="">
-          <nav class="clearfix">
-            <li>
-                700mm×1200mm                <span>منطقه گلدوزی</span>
-            </li>
-            <li>
-                12/15                <span>تعداد سوزن</span>
-            </li>
-            <li>
-                1                <span>تعداد سر</span>
-            </li>
-          </nav>
-        </div>
-        </a>
-      </div>
-            <div class="Pro_box">
-        <a href="/product/detail/id/155" title="">
-        <p>FT-1201/1501  (700*1700mm)</p>
-        <div class="Pro_img">
-          <img src="images/dbf3fc4d8b4545031ae6f5e55ec45be2.jpg" alt="">
-          <nav class="clearfix">
-            <li>
-                700mm*1700mm                <span>منطقه گلدوزی</span>
-            </li>
-            <li>
-                12/15                <span>تعداد سوزن</span>
-            </li>
-            <li>
-                1                <span>تعداد سر</span>
-            </li>
-          </nav>
-        </div>
-        </a>
-      </div>
-          
+        <a href="/product/accessories" title="">لوازم جانبی</a>  -->
     </div>
   </div>
-</div>
-<div class="set3" style="background-image: url(images/bg.jpg);">
-  <div class="container">
-    <div class="Pro_btbox">
-      <img src="images/e.png" alt="">
-            <a href="/product/list/id/6" title="">ورود به بخش بعدی →</a>
-          </div>
-  </div>
-</div>
+  <div class="set1">
+    <div class="container">
+      <h2 class="Sup_tit">سری دستگاه‌های گلدوزی تک کله سریع</h2>
+      <p class="List_cnt">سری کلاسیک تک کله، مناطق گلدوزی مختلف مناسب برای نیازهای مختلف گلدوزی. پشتیبانی از کلاه،
+        لباس‌های آماده، گلدوزی صاف، دستگاه‌های اختیاری شامل: سکه‌ها، ریسمان، سنگ‌های قیمتی، مهره‌ها، برش لیزری، دستگاه
+        قاب ربات و غیره.</p>
+      <div class="Probox">
+        <div class="Pro_box">
+          <a href="/product/detail/id/27" title="">
+            <p>Halo-100 (240*320mm)</p>
+            <div class="Pro_img">
+              <img src="images/5b128bf5ab3d5c7a1afa447ec0d99aa5.jpg" alt="">
+              <nav class="clearfix">
+                <li>
+                  240mm×320mm <span>منطقه گلدوزی</span>
+                </li>
+                <li>
+                  12 <span>تعداد سوزن</span>
+                </li>
+                <li>
+                  1 <span>تعداد سر</span>
+                </li>
+              </nav>
+            </div>
+          </a>
+        </div>
+        <div class="Pro_box">
+          <a href="/product/detail/id/5" title="">
+            <p>FT-1201S/1501S (300*350mm) </p>
+            <div class="Pro_img">
+              <img src="images/bc8b642c6249c46f0d52205af1d7a9c2.jpg" alt="">
+              <nav class="clearfix">
+                <li>
+                  300mm×350mm <span>منطقه گلدوزی</span>
+                </li>
+                <li>
+                  12/15 <span>تعداد سوزن</span>
+                </li>
+                <li>
+                  1 <span>تعداد سر</span>
+                </li>
+              </nav>
+            </div>
+          </a>
+        </div>
+        <div class="Pro_box">
+          <a href="/product/detail/id/6" title="">
+            <p>FT-1201/1501 (350*500mm)</p>
+            <div class="Pro_img">
+              <img src="images/380c4c491fef83ea4431e7dcd969976d.jpg" alt="">
+              <nav class="clearfix">
+                <li>
+                  350mm×500mm <span>منطقه گلدوزی</span>
+                </li>
+                <li>
+                  12/15 <span>تعداد سوزن</span>
+                </li>
+                <li>
+                  1 <span>تعداد سر</span>
+                </li>
+              </nav>
+            </div>
+          </a>
+        </div>
+        <div class="Pro_box">
+          <a href="/product/detail/id/43" title="">
+            <p>FT-1201/1501 (400*600mm)</p>
+            <div class="Pro_img">
+              <img src="images/d77e5839071a9ae8c7528275b789dc12.jpg" alt="">
+              <nav class="clearfix">
+                <li>
+                  400mm×600mm <span>منطقه گلدوزی</span>
+                </li>
+                <li>
+                  12/15 <span>تعداد سوزن</span>
+                </li>
+                <li>
+                  1 <span>تعداد سر</span>
+                </li>
+              </nav>
+            </div>
+          </a>
+        </div>
+        <div class="Pro_box">
+          <a href="/product/detail/id/221" title="">
+            <p>FT-1201 (400*600mm)PRO</p>
+            <div class="Pro_img">
+              <img src="images/dbdd4bfc21313d36a69a1948c90b5417.jpg" alt="">
+              <nav class="clearfix">
+                <li>
+                  400mm×600mm <span>منطقه گلدوزی</span>
+                </li>
+                <li>
+                  12/15 <span>تعداد سوزن</span>
+                </li>
+                <li>
+                  1 <span>تعداد سر</span>
+                </li>
+              </nav>
+            </div>
+          </a>
+        </div>
+        <div class="Pro_box">
+          <a href="/product/detail/id/42" title="">
+            <p>FT-1201/1501 (500*800mm)</p>
+            <div class="Pro_img">
+              <img src="images/8688cc3f1a033ff3a37a86932003d8a9.jpg" alt="">
+              <nav class="clearfix">
+                <li>
+                  500mm×800mm <span>منطقه گلدوزی</span>
+                </li>
+                <li>
+                  12/15 <span>تعداد سوزن</span>
+                </li>
+                <li>
+                  1 <span>تعداد سر</span>
+                </li>
+              </nav>
+            </div>
+          </a>
+        </div>
+        <div class="Pro_box">
+          <a href="/product/detail/id/41" title="">
+            <p>FT-1201/1501 (500*1200mm)</p>
+            <div class="Pro_img">
+              <img src="images/d4f4cebfd1714416ff15def66a65d920.jpg" alt="">
+              <nav class="clearfix">
+                <li>
+                  500mm×1200mm <span>منطقه گلدوزی</span>
+                </li>
+                <li>
+                  12/15 <span>تعداد سوزن</span>
+                </li>
+                <li>
+                  1 <span>تعداد سر</span>
+                </li>
+              </nav>
+            </div>
+          </a>
+        </div>
+        <div class="Pro_box">
+          <a href="/product/detail/id/223" title="">
+            <p>FT-1201 (600*1200mm)</p>
+            <div class="Pro_img">
+              <img src="images/1ec3c97e83a53ce72c68656e3385d812.png" alt="">
+              <nav class="clearfix">
+                <li>
+                  600mm×1200mm <span>منطقه گلدوزی</span>
+                </li>
+                <li>
+                  12/15 <span>تعداد سوزن</span>
+                </li>
+                <li>
+                  1 <span>تعداد سر</span>
+                </li>
+              </nav>
+            </div>
+          </a>
+        </div>
+        <div class="Pro_box">
+          <a href="/product/detail/id/40" title="">
+            <p>FT-1201/1501 (700*1200mm)</p>
+            <div class="Pro_img">
+              <img src="images/63398556aa3fd299771bc48c0e4b3413.jpg" alt="">
+              <nav class="clearfix">
+                <li>
+                  700mm×1200mm <span>منطقه گلدوزی</span>
+                </li>
+                <li>
+                  12/15 <span>تعداد سوزن</span>
+                </li>
+                <li>
+                  1 <span>تعداد سر</span>
+                </li>
+              </nav>
+            </div>
+          </a>
+        </div>
+        <div class="Pro_box">
+          <a href="/product/detail/id/155" title="">
+            <p>FT-1201/1501 (700*1700mm)</p>
+            <div class="Pro_img">
+              <img src="images/dbf3fc4d8b4545031ae6f5e55ec45be2.jpg" alt="">
+              <nav class="clearfix">
+                <li>
+                  700mm*1700mm <span>منطقه گلدوزی</span>
+                </li>
+                <li>
+                  12/15 <span>تعداد سوزن</span>
+                </li>
+                <li>
+                  1 <span>تعداد سر</span>
+                </li>
+              </nav>
+            </div>
+          </a>
+        </div>
 
-    
-<div class="footer">
-  <a class="scrollTop show"><img src="images/top.jpg" alt=""></a>
-  <div class="top">
-    <div the="container">
-      <div class="footerot_menu">
-        <ul class="clearfix">
-          <!-- <li><a href="/single/privacy">سیاست حفظ حریم خصوصی</a></li>
+      </div>
+    </div>
+  </div>
+  <div class="set3" style="background-image: url(images/bg.jpg);">
+    <div class="container">
+      <div class="Pro_btbox">
+        <img src="images/e.png" alt="">
+        <a href="/product/list/id/6" title="">ورود به بخش بعدی →</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="footer">
+    <a class="scrollTop show"><img src="images/top.jpg" alt=""></a>
+    <div class="top">
+      <div the="container">
+        <div class="footerot_menu">
+          <ul class="clearfix">
+            <!-- <li><a href="/single/privacy">سیاست حفظ حریم خصوصی</a></li>
           <li><a href="/single/feedback">بازخورد</a></li>
           <li><a href="/single/support">پشتیبانی</a></li> -->
-          <li><a href="tel:09177643438">09177643438</a></li>
-          <li><a href="https://instagram.com/Fortever.ir" target="_blank"><img src="images/instagram.png" width="25px" height="25px"></a></li>
-          <li><a href="https://wa.me/09177643438" target="_blank"><img src="images/whatsapp.png" width="25px" height="25px"></a></li>
-          <li><a href="https://t.me/Fortever_ir" target="_blank"><img src="images/telegram.png" width="25px" height="25px"></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="bot">
-    <div class="container clearfix">
-      <div class="left">
-        <a href=""><img src="images/ditu.png" alt=""></a>
-
-        <div class="right">
-          <p>© 2021 شرکت بازرگانی راد</p>
-          <br>
-          <p>همه حقوق محفوظ است.</p>
+            <li><a href="tel:09177643438">09177643438</a></li>
+            <li><a href="https://instagram.com/Fortever.ir" target="_blank"><img src="images/instagram.png" width="25px"
+                  height="25px"></a></li>
+            <li><a href="https://wa.me/09177643438" target="_blank"><img src="images/whatsapp.png" width="25px"
+                  height="25px"></a></li>
+            <li><a href="https://t.me/Fortever_ir" target="_blank"><img src="images/telegram.png" width="25px"
+                  height="25px"></a></li>
+          </ul>
         </div>
       </div>
     </div>
-  </div>
-  <div class="form_feedback" style="display: none;">
-    <span>نام کامل نمی‌تواند خالی باشد.</span>
+    <div class="bot">
+      <div class="container clearfix">
+        <div class="left">
+          <a href=""><img src="images/ditu.png" alt=""></a>
+
+          <div class="right">
+            <p>© 2021 شرکت بازرگانی راد</p>
+            <br>
+            <p>همه حقوق محفوظ است.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form_feedback" style="display: none;">
+      <span>نام کامل نمی‌تواند خالی باشد.</span>
+    </div>
+
+
+    <div id="Mask"></div>
+    <div id="Prompt_msg"></div>
+    <style type="text/css">
+      #form_data_box .box p input {
+        font-size: 0;
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
   </div>
 
 
-  <div id="Mask"></div>
-  <div id="Prompt_msg"></div>
   <style type="text/css">
     #form_data_box .box p input {
       font-size: 0;
@@ -377,41 +421,30 @@
       padding: 0;
     }
   </style>
-</div>
 
-
-<style type="text/css">
-    #form_data_box .box p input{
-        font-size: 0;
-        display: inline-block;
-        width: 15px;
-        height: 15px;
-        margin: 0;
-        padding: 0;
-    }
-</style>
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="/assets/js/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
-    <script src="js/swiper-3.4.2.min.js"></script>
-    <script src="js/formData.js"></script>
-  <script src="js/main.js"></script>  
-  <script src="js/maina.js"></script>   
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- <script src="/assets/js/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+  <script src="js/swiper-3.4.2.min.js"></script>
+  <script src="js/formData.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/maina.js"></script>
   <script type="text/javascript">
     var urlstr = location.href;
-    console.log(urlstr+'/');
-    var urlstatus=false;
-    $(".menu a").each(function () {  
-        if ((urlstr + '/').indexOf($(this).attr('href')) > -1&&$(this).attr('href')!='') {
-          $(this).addClass('activea'); urlstatus = true;
-        } else {
-          $(this).removeClass('activea');
-        }
-      });
-    if (!urlstatus) {$(".menu a").eq(1).addClass('activea'); }
-</script>
-     
+    console.log(urlstr + '/');
+    var urlstatus = false;
+    $(".menu a").each(function () {
+      if ((urlstr + '/').indexOf($(this).attr('href')) > -1 && $(this).attr('href') != '') {
+        $(this).addClass('activea'); urlstatus = true;
+      } else {
+        $(this).removeClass('activea');
+      }
+    });
+    if (!urlstatus) { $(".menu a").eq(1).addClass('activea'); }
+  </script>
 
-  
-</body></html>
+
+
+</body>
+
+</html>
